@@ -20,7 +20,7 @@ var lista = [];
 var i = 0;
 var elemento;
 
-// inizio ciclo
+// inizio ciclo per creare array
 
 for (i=1; i<101; i++){
 
@@ -40,6 +40,8 @@ for (i=1; i<101; i++){
     }
 
 }
+
+// ciclo per stampare array in console e desktop
 
 for(i=0; i<lista.length; i++){
     console.log(lista[i]);
