@@ -18,6 +18,7 @@ else if (test % 3 == 0){
 
 var lista = [];
 var i = 0;
+var elemento;
 
 // inizio ciclo
 
@@ -42,4 +43,6 @@ for (i=1; i<101; i++){
 
 for(i=0; i<lista.length; i++){
     console.log(lista[i]);
+    elemento = lista[i];
+    document.getElementById("lista").innerHTML = "<li>" + lista[i] + "</li>";
 }
