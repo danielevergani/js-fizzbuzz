@@ -20,3 +20,26 @@ var lista = [];
 var i = 0;
 
 // inizio ciclo
+
+for (i=1; i<101; i++){
+
+    if ((i % 3 == 0) && (i % 5 == 0)){
+        lista.push("FizzBuzz");
+    }
+    else if(i % 5 == 0){
+        lista.push("Buzz");
+
+    }
+    else if (i % 3 == 0){
+        lista.push("Fizz");
+
+    }
+    else{
+        lista.push(i);
+    }
+
+}
+
+for(i=0; i<lista.length; i++){
+    console.log(lista[i]);
+}
